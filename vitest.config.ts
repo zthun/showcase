@@ -4,6 +4,6 @@ import {
 } from "@zthun/janitor-build-config/vite";
 import { defineConfig } from "vite";
 
-const test = new ZViteTestBuilder().node().runSerially().monorepo().build();
+const test = new ZViteTestBuilder().node().monorepo().build();
 const config = new ZViteConfigBuilder().test(test).build();
 export default defineConfig(config);
