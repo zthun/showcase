@@ -1,3 +1,19 @@
+# Outputs
+coverage
+reports
+stats
+*.lerna_backup
+*.tgz
+.rpt2_cache
+.test
+.test.*
+
+# OS Turds
+.DS_Store
+
+# Secrets
+.secrets
+
 # Logs
 logs
 *.log
@@ -5,6 +21,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+.pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -66,9 +83,8 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
-.env.*
-!.env.example
+.env.*.local
+.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
