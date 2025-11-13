@@ -1,0 +1,23 @@
+{
+  "name": "@zthun/showcase-b",
+  "version": "1.0.0",
+  "description": "Sample package b.",
+  "author": "Anthony Bonta",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zthun/showcase",
+    "directory": "packages/showcase-b"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.2.1",
+    "vitest": "^4.0.7"
+  },
+  "sideEffects": false
+}

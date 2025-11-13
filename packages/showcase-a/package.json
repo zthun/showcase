@@ -1,0 +1,23 @@
+{
+  "name": "@zthun/showcase-a",
+  "version": "1.0.0",
+  "description": "Sample package a.",
+  "author": "Anthony Bonta",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zthun/romulator",
+    "directory": "packages/showcase-a"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.2.1",
+    "vitest": "^4.0.7"
+  },
+  "sideEffects": false
+}
